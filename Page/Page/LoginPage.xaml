@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Page.LoginPage"
+	Padding="10,10,10,10">
+	<StackLayout
+		VerticalOptions="Center">
+		<Entry
+			x:Name="UserName"
+			Placeholder="UserName" />
+		<Entry
+			x:Name="PassWord"
+			Placeholder="PassWord" />
+		<Button
+			x:Name="LoginButton"
+			Image="ic_touch.png"
+			BackgroundColor="Silver" />
+		<Button
+			x:Name="SingUpButton"
+			Image="ic_account.png"
+			BackgroundColor="Silver" />
+	</StackLayout>
+</ContentPage>
